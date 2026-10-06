@@ -1,16 +1,22 @@
-## Hi there 👋
+# GitHub Pages Image Showcase
 
-<!--
-**Greentimmycow/Greentimmycow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A lightweight static site that displays the image in this repository.
 
-Here are some ideas to get you started:
+## Publish with GitHub Pages
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Open **Settings → Pages** in the repository.
+2. Select **Deploy from a branch**.
+3. Choose the `main` branch and the `/` folder.
+4. Save and wait for GitHub Pages to publish the site.
+
+The page is available at `https://<username>.github.io/<repository>/` after deployment.
+
+## Local preview
+
+Run a local web server from the repository root:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
